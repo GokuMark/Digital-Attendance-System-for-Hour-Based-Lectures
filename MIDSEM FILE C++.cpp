@@ -6,12 +6,12 @@
 #include <limits>
 #include <ctime>
 #include <sstream>
-#include <cstddef> // Required for size_t in C++98
-#include <cctype>  // Required for toupper()
+#include <cstddef> 
+#include <cctype>  
 
 using namespace std;
 
-// --- Student Class Definition (Functional Requirement 5.1) ---
+
 class Student {
 private:
     string indexNumber;
@@ -230,4 +230,5 @@ void markAttendance(vector<Student>& students) {
 void displayReports() {
     cout << "\n--- View Reports and Summaries ---\n";
     cout << "This functionality needs to be implemented to read session files and display formatted summaries." << endl;
+
 }
